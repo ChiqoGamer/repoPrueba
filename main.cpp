@@ -12,14 +12,15 @@ int main()
     rlutil::hidecursor();
     int key = rlutil::getkey();
     cout<<key;
+    cout<<key;
+
 //
 //
 //    rlutil::setBackgroundColor(rlutil::BLACK);
 //    rlutil::setColor(rlutil::MAGENTA);
 //    system("pause");
 
-    rlutil::locate(5,5);
-    cout<<"HOLA MUNDOOOOOO";
+
 
     const int TAM=10;
     int vec[TAM]={1,2,3,4,5,6,7,8,9,10};
